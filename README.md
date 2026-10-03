@@ -1,22 +1,23 @@
 # Saifi TR Trading Android
 
-Saifi TR Trading Android is a Kotlin Android trading research app. It includes market screens for crypto, forex, and stocks, trading strategy components, backtesting, bot management, exchange repositories, and interactive chart/order-book UI components.
+Saifi TR Trading Android is an Android trading research app built with Kotlin.
 
-The app package is `com.godzilla.app`, and the visible app name is `Saifi TR`.
+In simple words, this app is made to explore trading screens, market data, strategy ideas, backtesting, bot management, charts, and order book views. It includes support-style code for crypto, forex, and stock market features.
 
-## Features
+The app package is `com.godzilla.app`, and the app name shown to users is `Saifi TR`.
 
-- Multi-market trading UI for crypto, forex, and stocks
-- Bot management screens and bot instance models
-- Manual trading mode
-- Backtesting engine and backtest UI
-- Trading calculators and strategy classes
-- Candlestick and interactive chart components
-- Order book visualization
-- Exchange repository layer for Binance, Bybit, OKX, KuCoin, Gate.io, MEXC, Bitget, BitMart, Coinbase, BingX, Toobit, and Yahoo Finance
-- Hilt dependency injection modules
-- Local user preferences
-- Unit test coverage for trading calculator logic
+## What This App Can Do
+
+- Show trading screens for crypto, forex, and stocks.
+- Manage trading bot information.
+- Include a manual trading mode.
+- Run backtesting logic and show backtest screens.
+- Use trading calculators and strategy classes.
+- Display candlestick charts and interactive chart components.
+- Show order book information.
+- Include exchange repository code for Binance, Bybit, OKX, KuCoin, Gate.io, MEXC, Bitget, BitMart, Coinbase, BingX, Toobit, and Yahoo Finance.
+- Store local user preferences.
+- Include unit tests for trading calculator logic.
 
 ## Tech Stack
 
@@ -54,7 +55,8 @@ app/src/main/java/com/godzilla/app
 .\gradlew.bat assembleDebug
 ```
 
-## Notes
+## Safety Notes
 
-This project is for trading research and application development. Review strategy, exchange, and risk logic carefully before connecting to any real trading workflow.
+This project is for trading research and app development.
 
+Before connecting anything to real trading, carefully review the strategy, exchange, and risk logic. Trading is risky, and this project is not financial advice.
