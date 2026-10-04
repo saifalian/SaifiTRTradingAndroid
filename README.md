@@ -1,62 +1,76 @@
 # Saifi TR Trading Android
 
-Saifi TR Trading Android is an Android trading research app built with Kotlin.
+![Saifi TR Trading Android preview](docs/screenshots/preview.svg)
 
-In simple words, this app is made to explore trading screens, market data, strategy ideas, backtesting, bot management, charts, and order book views. It includes support-style code for crypto, forex, and stock market features.
+## Short Description
 
-The app package is `com.godzilla.app`, and the app name shown to users is `Saifi TR`.
+An Android trading research app for crypto, forex, stocks, strategies, and charts.
 
-## What This App Can Do
+## About This Project
 
-- Show trading screens for crypto, forex, and stocks.
-- Manage trading bot information.
-- Include a manual trading mode.
-- Run backtesting logic and show backtest screens.
-- Use trading calculators and strategy classes.
-- Display candlestick charts and interactive chart components.
-- Show order book information.
-- Include exchange repository code for Binance, Bybit, OKX, KuCoin, Gate.io, MEXC, Bitget, BitMart, Coinbase, BingX, Toobit, and Yahoo Finance.
-- Store local user preferences.
-- Include unit tests for trading calculator logic.
+Saifi TR Trading Android is a Kotlin Android trading research app. It explores trading screens, market data, strategy ideas, backtesting, bot management, charts, order book views, and exchange repository code.
+
+The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
+
+## Main Features
+
+- Crypto, forex, and stock trading screens
+- Manual trading mode and bot management views
+- Backtesting screens and logic
+- Trading calculators and strategy classes
+- Candlestick and interactive chart components
+- Order book views
+- Repository/API structure for many exchanges
 
 ## Tech Stack
 
 - Kotlin
-- Android Gradle Plugin with Kotlin DSL
 - Jetpack Compose
 - Hilt
-- Retrofit-style repository/API structure
-- Kotlin Coroutines
-- AndroidX lifecycle and navigation components
+- Coroutines
+- Repository/API layer
+
+## Project Location
+
+Main local folder:
+
+```text
+D:\PROJECTS\SaifiTRTradingAndroid
+```
+
+GitHub repository:
+
+https://github.com/saifalian/SaifiTRTradingAndroid
 
 ## Project Structure
 
 ```text
-app/src/main/java/com/godzilla/app
-├── data/
-│   ├── local/
-│   ├── remote/
-│   └── repository/
-├── di/
-├── domain/
-├── ui/
-└── MainActivity.kt
+app/src/main/          Android app source
+app/src/main/java/     Kotlin package code
+gradle/                Gradle wrapper files
+gradlew.bat            Windows Gradle launcher
 ```
 
-## Requirements
+## How To Run
 
-- Android Studio
-- JDK 17 or Android Studio bundled JDK
-- Android SDK installed
+1. Open the project in Android Studio.
+2. Sync Gradle.
+3. Build with .\gradlew.bat assembleDebug.
+4. Run on an emulator or Android device.
+5. Review all exchange and risk logic before real use.
 
-## Build
+## Screenshot
 
-```powershell
-.\gradlew.bat assembleDebug
-```
+The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
-## Safety Notes
+## Current Status
 
-This project is for trading research and app development.
+This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
 
-Before connecting anything to real trading, carefully review the strategy, exchange, and risk logic. Trading is risky, and this project is not financial advice.
+## Safety Note
+
+This project is for research and development only. Trading has risk and this is not financial advice.
+
+## License
+
+No license file is included yet. Add a license before using this project as an open-source project.
