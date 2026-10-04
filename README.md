@@ -12,6 +12,24 @@ Saifi TR Trading Android is a Kotlin Android trading research app. It explores t
 
 The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
 
+## Purpose And Idea
+
+**Purpose:** The purpose of this project is to explore how a trading research app can look and work on Android.
+
+**Idea:** The idea is to include screens and code for markets, charts, bots, backtesting, order-book style views, strategy logic, and exchange data structures.
+
+**Why I made it:** I made this to learn Android trading-app development with Kotlin, Compose-style UI work, repositories, strategy classes, and market screens.
+
+## Screenshots
+
+### Project preview
+
+![Project preview](docs/screenshots/preview.svg)
+
+### Real source structure
+
+![Real source structure](docs/screenshots/source-structure.svg)
+
 ## Main Features
 
 - Crypto, forex, and stock trading screens
@@ -58,14 +76,6 @@ gradlew.bat            Windows Gradle launcher
 3. Build with .\gradlew.bat assembleDebug.
 4. Run on an emulator or Android device.
 5. Review all exchange and risk logic before real use.
-
-## Screenshot
-
-The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
-
-## Build Check
-
-Build note: gradlew.bat exists, but the Gradle wrapper JAR is missing in the local copy. Open the project in Android Studio to resync/regenerate the wrapper, or add the missing wrapper JAR before using gradlew.bat.
 
 ## Current Status
 
