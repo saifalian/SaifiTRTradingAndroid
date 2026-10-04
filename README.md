@@ -22,6 +22,10 @@ The goal is to keep the project easy to understand, easy to run, and useful for 
 
 ## Screenshots
 
+### Real Android emulator screenshot
+
+![Real Android emulator screenshot](docs/screenshots/real-app.png)
+
 ### Project preview
 
 ![Project preview](docs/screenshots/preview.svg)
@@ -76,6 +80,10 @@ gradlew.bat            Windows Gradle launcher
 3. Build with .\gradlew.bat assembleDebug.
 4. Run on an emulator or Android device.
 5. Review all exchange and risk logic before real use.
+
+## Build Check
+
+Build check: Gradle wrapper files were restored, assembleDebug completed successfully, and the app was installed and opened on an Android emulator for the real screenshot.
 
 ## Current Status
 
