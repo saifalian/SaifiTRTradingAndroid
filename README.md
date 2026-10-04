@@ -63,6 +63,10 @@ gradlew.bat            Windows Gradle launcher
 
 The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
+## Build Check
+
+Build note: gradlew.bat exists, but the Gradle wrapper JAR is missing in the local copy. Open the project in Android Studio to resync/regenerate the wrapper, or add the missing wrapper JAR before using gradlew.bat.
+
 ## Current Status
 
 This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
